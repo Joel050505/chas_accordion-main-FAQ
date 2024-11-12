@@ -1,0 +1,34 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 1px 1px 20px blue;
+}
+
+.description {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+div.title {
+  display: flex;
+  border: 1px solid rgb(102, 100, 100);
+  cursor: pointer;
+  width: 500px;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+div.title:hover {
+  background: rgba(0, 255, 255, 0.242);
+}
